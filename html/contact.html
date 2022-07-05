@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bonala Poorvaja</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <style>body{
+            background-color: rgb(255, 200, 80);
+        }</style>
+    
+    </head>
+
+    <body>
+        <div id="navbar">
+            <a clas="active" href="../html/home.html">Home</a>
+            <a href="../html/education.html">Education</a>
+            <a href="../html/contact.html">Contact</a>
+        </div>
+
+        <div class="box">
+            <p>&nbsp Email :&nbspPoorvaja.bonala@students.iiit.ac.in <br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Poorvaja.693@gmail.com
+            </p> 
+            <p>&nbsp Social Media: &nbsp
+                <a href="https://github.com/poorvaj-a" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+                <a href="mailto:Poorvaja.bonala@students.iiit.ac.in">&nbsp;<i class="fa fa-envelope" style="font-size:64px;color:red"></i></a>
+            </p>  
+        </div>        
+    <center>
+        <form name="skillForm" method="POST" onsubmit="return Form()">
+            <input style="width:80%" class="form-control ml-5 bg-dark text-white mt-5" id="Name" placeholder="Your Name" name="email">
+            <label for="pwd"class="mt-2"><h3>My skill:</h3></label>
+            <input  style="width:80%" class="form-control ml-5 bg-dark text-white" id="skill" placeholder="Skill" name="pswd">
+            <select  style="width:30%" name="cars" id="dropdown" class="custom-select ml-5 mt-5 bg-dark text-primary">
+            <option selected="true" value="No Answer">Poor</option>
+            <option value="Noob">Okay</option>
+            <option value="Fine Fine">Good</option>
+            <option value="Boss">Excellent</option>
+          </select>
+            <button type="submit" id="newE" class="btn btn-primary ml-5 mt-5">Submit</button>
+          </form>
+          <div class="box2">
+          <table style="width: 60%; text-align: center; font-size: large; color: rgb(23, 56, 56);" class="table table-striped text-primary table-border mt-5">
+            <thead class="thead-light">
+              <tr>
+                <th class="pl-5" >Your Name</th>
+                <th class="pl-5">My skill</th>
+                <th class="pl-5">Level</th>
+              </tr>
+            </thead>
+            <tbody id="InsertHere"></tbody>
+          </table>
+          <script src="../js/script1.js"></script>
+        </div>
+    </center>   
+    </body>
+</html>
